@@ -1,95 +1,86 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<!-- saved from url=(0062)https://blackrockdigital.github.io/startbootstrap-coming-soon/ -->
+<html lang="en" class=" idcae idcac"><link type="text/css" id="dark-mode" rel="stylesheet" href="https://blackrockdigital.github.io/startbootstrap-coming-soon/"><style type="text/css" id="dark-mode-custom-style"></style><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-        <title>Laravel</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+  <title>Coming Soon - Start Bootstrap Theme</title>
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
+  <!-- Bootstrap core CSS -->
+  <link href="./Coming Soon - Start Bootstrap Theme_files/bootstrap.min.css" rel="stylesheet">
 
-            .full-height {
-                height: 100vh;
-            }
+  <!-- Custom fonts for this template -->
+  <link href="./Coming Soon - Start Bootstrap Theme_files/css" rel="stylesheet">
+  <link href="./Coming Soon - Start Bootstrap Theme_files/css(1)" rel="stylesheet">
+  <link href="./Coming Soon - Start Bootstrap Theme_files/all.min.css" rel="stylesheet" type="text/css">
 
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
+  <!-- Custom styles for this template -->
+  <link href="./Coming Soon - Start Bootstrap Theme_files/coming-soon.min.css" rel="stylesheet">
 
-            .position-ref {
-                position: relative;
-            }
+</head>
 
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
+<body>
 
-            .content {
-                text-align: center;
-            }
+  <div class="overlay"></div>
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="mp4/bg.mp4" type="video/mp4">
+  </video>
 
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
-                    @endauth
+  <div class="masthead">
+    <div class="masthead-bg"></div>
+    <div class="container h-100">
+      <div class="row h-100">
+        <div class="col-12 my-auto">
+          <div class="masthead-content text-white py-5 py-md-0">
+            <h1 class="mb-3">Coming Soon!</h1>
+            <p class="mb-5">We're working hard to finish the development of this site. Our target launch date is
+              <strong>January 2019</strong>! Sign up for updates using the form below!</p>
+            <form action="/email" method="GET" >
+              <div class="input-group input-group-newsletter">
+                <input type="email" name='email' class="form-control" placeholder="Enter email..." aria-label="Enter email..." aria-describedby="basic-addon">
+                <div class="input-group-append">
+                  <input class="btn btn-secondary" type="submit" value="Notify Me!">
                 </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
-            </div>
+              </div>
+            </form>
+          </div>
         </div>
-    </body>
-</html>
+      </div>
+    </div>
+  </div>
+
+  <div class="social-icons">
+    <ul class="list-unstyled text-center mb-0">
+      <li class="list-unstyled-item">
+        <a href="https://blackrockdigital.github.io/startbootstrap-coming-soon/#">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      <li class="list-unstyled-item">
+        <a href="https://blackrockdigital.github.io/startbootstrap-coming-soon/#">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+      <li class="list-unstyled-item">
+        <a href="https://blackrockdigital.github.io/startbootstrap-coming-soon/#">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="./Coming Soon - Start Bootstrap Theme_files/jquery.min.js"></script>
+  <script src="./Coming Soon - Start Bootstrap Theme_files/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="./Coming Soon - Start Bootstrap Theme_files/coming-soon.min.js"></script>
+
+
+
+
+</body></html>
+
